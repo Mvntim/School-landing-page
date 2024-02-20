@@ -1389,6 +1389,10 @@ a {
     margin-left: 1em;
   }
 
+  section {
+    margin: auto;
+  }
+
   .popular-container {
     width: 15em;
   }
@@ -2023,6 +2027,14 @@ a {
   }
 }
 
+@media screen and (min-width: 1420px) {
+  .star {
+    transform: translate(720%, -150%);
+  }
+  .dollar-flex {
+    transform: translate(510%, -45%);
+  }
+}
 @media screen and (min-width: 1700px) {
   .section {
     margin-inline: 8em;
@@ -2263,7 +2275,6 @@ a {
   }
   .favourite-a {
     margin-right: 9em;
-    font-size: var(--medium-font-size);
   }
 
   .popular-box {
@@ -2295,5 +2306,12 @@ a {
   .instructors-box {
     width: 25em;
     height: 21em;
+  }
+
+  .star {
+    transform: translate(768%, -190%);
+  }
+  .dollar-flex {
+    transform: translate(580%, -45%);
   }
 }
